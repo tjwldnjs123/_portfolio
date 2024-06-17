@@ -1,12 +1,15 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/header/Header";
+import Main from "./pages/main/Main";
 
 function App() {
   return (
-    <div className="h-screen ">
+    <div className="">
       <Header />
-      <div>main</div>
-      <div>footer</div>
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
     </div>
   );
 }

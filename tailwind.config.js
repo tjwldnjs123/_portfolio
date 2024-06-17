@@ -6,6 +6,9 @@ export default {
   },
 
   theme: {
+    backgroundImage: {
+      main: "url('./assets/images/sky.jpg')",
+    },
     extend: {},
   },
   plugins: ["prettier-plugin-tailwindcss"],
