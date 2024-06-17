@@ -1,13 +1,13 @@
 import React from "react";
-import Introduce from "../components/main/Introduce";
+import MainContents from "../components/main/Main";
 import AboutMe from "../components/aboutme/AboutMe";
 
 function Main() {
   return (
-    <>
-      <Introduce />
+    <div className="flex flex-col">
+      <MainContents />
       <AboutMe />
-    </>
+    </div>
   );
 }
 
