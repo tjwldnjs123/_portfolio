@@ -4,8 +4,9 @@ export default {
   corePlugins: {
     preflight: true,
   },
+
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 };
