@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function Main() {
+function Introduce() {
   return (
     <>
       <div className="bg-main relative w-screen h-[600px] bg-cover bg-bottom bg-no-repeat"></div>
@@ -18,4 +18,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Introduce;
