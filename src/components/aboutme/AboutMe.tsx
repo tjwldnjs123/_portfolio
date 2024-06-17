@@ -43,7 +43,7 @@ function AboutMe() {
     <div id="aboutme" className="h-screen">
       <div>
         <div className="flex justify-center items-center mb-10">
-          <CiLink size={50} />
+          <CiLink size={50} color="gray" />
           <p className="text-5xl ">ABOUT ME</p>
         </div>
         <div className="text-center mb-10">
