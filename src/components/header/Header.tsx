@@ -31,7 +31,7 @@ function Header() {
             </Link>
           </div>
           <div className="mr-10">
-            <Link to="projects" smooth={true} offset={-260}>
+            <Link to="projects" smooth={true} offset={-160}>
               <div className="cursor-pointer">Projects</div>
             </Link>
           </div>

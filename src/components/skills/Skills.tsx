@@ -29,7 +29,7 @@ function Skills() {
   return (
     <div id="skills" className="h-screen w-full">
       <div>
-        <div className="flex justify-center items-center mb-10">
+        <div className="flex justify-center items-center mb-20">
           <CiLink size={50} color="gray" />
           <p className="text-5xl ">SKILLS</p>
         </div>
@@ -59,35 +59,35 @@ function Skills() {
             <p className="h-10 pt-2 text-center border-b-2  border-gray-300">
               Frameworks & Libraries
             </p>
-            <div className="flex flex-col  justify-around items-center mt-1 ">
-              <p className="flex items-center">
+            <div className="flex flex-col  justify-around items-center mt-1  ">
+              <p className="flex items-center py-2">
                 <FaReact size={30} color={"#fd4909"} /> React
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 {/* <FaCss3Alt size={30} color="#2197f3" />  */}
                 Next.js
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <FaBootstrap size={30} color="#ffdf00" /> Bootstrap
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <RiTailwindCssFill size={30} color="#3078c6" /> Tailwind CSS
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <SiStyledcomponents size={30} color="#3078c6" /> Styled
                 Components
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <AiOutlineAntDesign size={30} color="#3078c6" /> Ant Design
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <SiMui size={30} color="#3078c6" /> Material Ui
               </p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">
                 <SiRedux size={30} color="#3078c6" /> Redux
               </p>
-              <p className="flex items-center">Redux toolkit</p>
-              <p className="flex items-center">
+              <p className="flex items-center py-2">Redux toolkit</p>
+              <p className="flex items-center py-2">
                 <SiRecoil size={30} color="#3078c6" /> Recoil
               </p>
               <p className="flex items-center">

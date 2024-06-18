@@ -7,7 +7,7 @@ export default {
 
   theme: {
     backgroundImage: {
-      main: "url('./assets/images/sky.jpg')",
+      main: "url('/assets/sky.jpg')",
     },
     extend: {},
   },
