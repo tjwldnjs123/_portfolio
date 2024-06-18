@@ -1,4 +1,3 @@
-import React from "react";
 import { CiLink } from "react-icons/ci";
 import projectData from "../../data/projects.json";
 import { FaGithub, FaCheck } from "react-icons/fa";

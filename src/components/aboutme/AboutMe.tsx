@@ -1,15 +1,4 @@
-import React from "react";
 import { CiLink } from "react-icons/ci";
-import {
-  CartesianGrid,
-  Legend,
-  Line,
-  LineChart,
-  ResponsiveContainer,
-  Tooltip,
-  XAxis,
-  YAxis,
-} from "recharts";
 import SimpleLineChart from "../../utils/SimpleLineChart";
 
 function AboutMe() {

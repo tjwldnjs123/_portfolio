@@ -1,4 +1,3 @@
-import React from "react";
 import {
   CartesianGrid,
   Legend,
@@ -17,7 +16,7 @@ type LineChartProps = {
 };
 
 function SimpleLineChart({ data }: LineChartProps) {
-  const customTolltip = ({
+  const customTolltip: any = ({
     payload,
   }: {
     payload: { [key: string]: any }[];
