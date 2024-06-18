@@ -26,7 +26,7 @@ import { AiOutlineAntDesign } from "react-icons/ai";
 
 function Skills() {
   return (
-    <div id="skills" className="h-auto w-full pb-2">
+    <div id="skills" className="h-full w-full pb-2">
       <div>
         <div className="flex justify-center items-center mb-20">
           <CiLink size={50} color="gray" />
