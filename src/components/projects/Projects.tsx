@@ -27,7 +27,7 @@ function Projects() {
                 <div className="w-[80%] h-[40%] mx-auto xl:w-[50%] xl:h-[70%]">
                   <img
                     className=" bg-cover object-fill w-full h-full brightness-100 group-hover:brightness-50"
-                    src={`${data.img}`}
+                    src={`https://tjwldnjs123.github.io/_portfolio/${data.img}`}
                   />
                 </div>
 
