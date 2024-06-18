@@ -27,7 +27,7 @@ import { AiOutlineAntDesign } from "react-icons/ai";
 
 function Skills() {
   return (
-    <div id="skills" className="h-screen w-full">
+    <div id="skills" className="h-auto w-full pb-2">
       <div>
         <div className="flex justify-center items-center mb-20">
           <CiLink size={50} color="gray" />
@@ -36,7 +36,7 @@ function Skills() {
 
         <div className="flex flex-row justify-around  w-[80%] mx-auto">
           <div className="w-[20%] h-auto border-2 border-gray-300 rounded-lg p-2 ">
-            <p className="h-10 pt-2 text-center border-b-2  border-gray-300">
+            <p className=" pt-2 text-center border-b-2  border-gray-300 xl:h-10">
               Core Web Technologies
             </p>
             <div className="flex flex-col h-[80%] justify-around items-center mt-1 ">
@@ -56,7 +56,7 @@ function Skills() {
           </div>
 
           <div className="w-[20%] h-auto border-2 p-2 border-gray-300 rounded-lg ">
-            <p className="h-10 pt-2 text-center border-b-2  border-gray-300">
+            <p className=" pt-2 text-center border-b-2  border-gray-300 xl:h-10">
               Frameworks & Libraries
             </p>
             <div className="flex flex-col  justify-around items-center mt-1  ">
@@ -87,7 +87,7 @@ function Skills() {
                 <SiRedux size={30} color="#3078c6" /> Redux
               </p>
               <p className="flex items-center py-2">Redux toolkit</p>
-              <p className="flex items-center py-2">
+              <p className="flex items-center ">
                 <SiRecoil size={30} color="#3078c6" /> Recoil
               </p>
               <p className="flex items-center">
