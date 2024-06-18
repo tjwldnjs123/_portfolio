@@ -7,7 +7,9 @@ import {
   Tooltip,
   XAxis,
   YAxis,
+  DotProps,
 } from "recharts";
+import { BiWalk } from "react-icons/bi";
 
 type LineChartProps = {
   data: {
@@ -31,11 +33,40 @@ function SimpleLineChart({ data }: LineChartProps) {
       </div>
     );
   };
+
+  const CustomDot: React.FC<DotProps> = (props) => {
+    const { cx, cy, payload, value, dataKey, index, isActive } = props;
+    if (cx === undefined || cy === undefined) return null;
+
+    const iconSize = isActive ? 30 : 20;
+
+    return (
+      <foreignObject
+        x={cx - iconSize / 2}
+        y={cy - iconSize / 2}
+        width={iconSize}
+        height={iconSize}
+      >
+        <div
+          style={{
+            width: "100%",
+            height: "100%",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <BiWalk size={iconSize} />
+        </div>
+      </foreignObject>
+    );
+  };
+
   return (
-    <ResponsiveContainer aspect={2.5}>
+    <ResponsiveContainer aspect={1.7}>
       <LineChart
         width={300}
-        height={300}
+        height={500}
         data={data}
         margin={{
           top: 5,
@@ -72,7 +103,8 @@ function SimpleLineChart({ data }: LineChartProps) {
           type="monotone"
           dataKey="성장률"
           stroke="#8884d8"
-          activeDot={{ r: 8 }}
+          dot={<CustomDot isActive={false} />}
+          activeDot={<CustomDot isActive={true} />}
         />
       </LineChart>
     </ResponsiveContainer>
