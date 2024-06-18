@@ -23,10 +23,12 @@ function SimpleLineChart({ data }: LineChartProps) {
     payload: { [key: string]: any }[];
   }) => {
     return (
-      <div className="w-[250px] h-[200px] border border-gray-2 rounded-lg bg-white">
+      <div className="w-[250px] h-auto border border-gray-2 rounded-lg bg-white ">
         <p className="h-10 flex flex-col justify-center  border-b-2  border-gray-1">
           {payload[0]?.payload.name}년
         </p>
+
+        <p className="p-10">{payload[0]?.payload?.description}</p>
       </div>
     );
   };

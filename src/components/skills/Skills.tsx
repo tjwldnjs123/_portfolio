@@ -36,7 +36,7 @@ function Skills() {
 
         <div className="flex flex-row justify-around  w-[80%] mx-auto">
           <div className="w-[20%] h-auto border-2 border-gray-300 rounded-lg p-2 ">
-            <p className=" pt-2 text-center border-b-2  border-gray-300 xl:h-10">
+            <p className=" pt-2 text-center border-b-2  border-gray-300 pb-2 xl:h-10">
               Core Web Technologies
             </p>
             <div className="flex flex-col h-[80%] justify-around items-center mt-1 ">
@@ -56,7 +56,7 @@ function Skills() {
           </div>
 
           <div className="w-[20%] h-auto border-2 p-2 border-gray-300 rounded-lg ">
-            <p className=" pt-2 text-center border-b-2  border-gray-300 xl:h-10">
+            <p className=" pt-2 text-center border-b-2  border-gray-300 pb-2 xl:h-10">
               Frameworks & Libraries
             </p>
             <div className="flex flex-col  justify-around items-center mt-1  ">

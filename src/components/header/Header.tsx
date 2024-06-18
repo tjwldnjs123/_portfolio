@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <div className="fixed top-0  flex flex-row justify-center w-full h-16 bg-sky-100 z-10">
-      <div className="flex flex-row justify-around items-center w-[80%]">
+      <div className="flex flex-row justify-between items-center w-[80%] ">
         <div className="w-[15%]  text-3xl">
           <Link to="main" smooth={true}>
             <div className="cursor-pointer" onClick={goMain}>
@@ -19,7 +19,7 @@ function Header() {
             </div>
           </Link>
         </div>
-        <div className="flex flex-row  w-[70%] text-2xl">
+        <div className="flex flex-row   text-xl">
           <div className="mr-10">
             <Link to="aboutme" smooth={true} offset={-104}>
               <div className="cursor-pointer">About me</div>
@@ -35,11 +35,11 @@ function Header() {
               <div className="cursor-pointer">Projects</div>
             </Link>
           </div>
-        </div>
-        <div className="w-[5%]">
-          <a href="https://github.com/tjwldnjs123" target="_blank">
-            <FaGithub size={30} />
-          </a>
+          <div className="w-[5%]">
+            <a href="https://github.com/tjwldnjs123" target="_blank">
+              <FaGithub size={28} />
+            </a>
+          </div>
         </div>
       </div>
     </div>
