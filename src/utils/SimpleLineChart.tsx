@@ -35,7 +35,7 @@ function SimpleLineChart({ data }: LineChartProps) {
   };
 
   const CustomDot: React.FC<DotProps> = (props) => {
-    const { cx, cy, payload, value, dataKey, index, isActive } = props;
+    const { cx, cy, isActive } = props;
     if (cx === undefined || cy === undefined) return null;
 
     const iconSize = isActive ? 30 : 20;

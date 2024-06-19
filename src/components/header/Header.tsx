@@ -25,13 +25,18 @@ function Header() {
             </Link>
           </div>
           <div className="mr-10">
-            <Link to="skills" smooth={true} offset={-120}>
+            <Link to="skills" smooth={true} offset={-60}>
               <div className="cursor-pointer">Skills</div>
             </Link>
           </div>
           <div className="mr-10">
             <Link to="projects" smooth={true} offset={-60}>
               <div className="cursor-pointer">Projects</div>
+            </Link>
+          </div>
+          <div className="mr-10">
+            <Link to="career" smooth={true} offset={-60}>
+              <div className="cursor-pointer">Career</div>
             </Link>
           </div>
           <div className="w-[5%]">

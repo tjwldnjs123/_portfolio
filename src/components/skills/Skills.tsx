@@ -26,16 +26,16 @@ import { AiOutlineAntDesign } from "react-icons/ai";
 
 function Skills() {
   return (
-    <div id="skills" className="h-full w-full pb-2">
+    <div id="skills" className="h-screen w-full p-10 bg-yellow-400">
       <div>
-        <div className="flex justify-center items-center mb-20">
+        <div className="flex justify-center items-center mb-20 ">
           <CiLink size={50} color="gray" />
-          <p className="text-5xl ">SKILLS</p>
+          <p className="text-5xl">SKILLS</p>
         </div>
 
-        <div className="flex flex-row justify-around  w-[80%] mx-auto">
-          <div className="w-[20%] h-auto border-2 border-gray-300 rounded-lg p-2 ">
-            <p className=" pt-2 text-center border-b-2  border-gray-300 pb-2 xl:h-10">
+        <div className="flex flex-row justify-around  w-[80%] mx-auto pb-20">
+          <div className="w-[20%] h-auto  rounded-lg p-2 bg-white ">
+            <p className=" pt-2 text-center border-b-2   pb-2 xl:h-10">
               Core Web Technologies
             </p>
             <div className="flex flex-col h-[80%] justify-around items-center mt-1 ">
@@ -54,8 +54,8 @@ function Skills() {
             </div>
           </div>
 
-          <div className="w-[20%] h-auto border-2 p-2 border-gray-300 rounded-lg ">
-            <p className=" pt-2 text-center border-b-2  border-gray-300 pb-2 xl:h-10">
+          <div className="w-[20%] h-auto  rounded-lg p-2 bg-white ">
+            <p className=" pt-2 text-center border-b-2   pb-2 xl:h-10">
               Frameworks & Libraries
             </p>
             <div className="flex flex-col  justify-around items-center mt-1  ">
@@ -94,9 +94,9 @@ function Skills() {
               </p>
             </div>
           </div>
-          {/* test */}
-          <div className="w-[20%] h-auto border-2 border-gray-300 rounded-lg p-2 ">
-            <p className="h-10 pt-2 text-center border-b-2  border-gray-300">
+
+          <div className="w-[20%] h-auto  rounded-lg p-2 bg-white  ">
+            <p className="h-10 pt-2 text-center border-b-2  xl:h-10 ">
               Development Tools
             </p>
             <div className="flex flex-col h-[80%] justify-around items-center mt-1 ">
@@ -121,8 +121,8 @@ function Skills() {
             </div>
           </div>
 
-          <div className="w-[20%] h-auto border-2 border-gray-300 rounded-lg p-2 ">
-            <p className="h-10 pt-2 text-center border-b-2  border-gray-300">
+          <div className="w-[20%] h-auto  rounded-lg p-2 bg-white ">
+            <p className="h-10 pt-2 text-center border-b-2  xl:h-10">
               Collaboration Tools
             </p>
             <div className="flex flex-col h-[80%] justify-around items-center mt-1 ">
