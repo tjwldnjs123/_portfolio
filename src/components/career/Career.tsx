@@ -37,7 +37,6 @@ function Career() {
                           <p className="underline underline-offset-8 decoration-[.5px] mb-2">
                             {work.title}
                           </p>
-
                           {work.contents.map((description) => {
                             return <p>{`- ${description}`}</p>;
                           })}
