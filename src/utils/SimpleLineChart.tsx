@@ -63,7 +63,7 @@ function SimpleLineChart({ data }: LineChartProps) {
   };
 
   return (
-    <ResponsiveContainer aspect={1.7}>
+    <ResponsiveContainer aspect={2.5}>
       <LineChart
         width={300}
         height={500}

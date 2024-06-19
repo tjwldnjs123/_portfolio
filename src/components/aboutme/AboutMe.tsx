@@ -52,7 +52,7 @@ function AboutMe() {
           </p>
         </div>
 
-        <div className="w-[80%] h-full mx-auto">
+        <div className="w-[80%] h-[500px] mx-auto">
           <SimpleLineChart data={chartData} />
         </div>
       </div>
