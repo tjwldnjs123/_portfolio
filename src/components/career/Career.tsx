@@ -13,7 +13,7 @@ function Career() {
           {careerData.career.map((companyData) => {
             return (
               <div className="w-[80%] h-auto flex mb-10">
-                <div className="w-[30%] h-[300px] ">
+                <div className="w-[20%] h-[20%] mr-10 ">
                   <img
                     className=" bg-cover object-fill w-full h-full brightness-100 group-hover:brightness-50"
                     src={`https://tjwldnjs123.github.io/_portfolio/${companyData.img}`}

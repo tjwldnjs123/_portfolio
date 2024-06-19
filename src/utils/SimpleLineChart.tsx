@@ -7,7 +7,6 @@ import {
   Tooltip,
   XAxis,
   YAxis,
-  DotProps,
 } from "recharts";
 import { BiWalk } from "react-icons/bi";
 
@@ -34,7 +33,7 @@ function SimpleLineChart({ data }: LineChartProps) {
     );
   };
 
-  const CustomDot: React.FC<DotProps> = (props) => {
+  const CustomDot: any = (props: any) => {
     const { cx, cy, isActive } = props;
     if (cx === undefined || cy === undefined) return null;
 
