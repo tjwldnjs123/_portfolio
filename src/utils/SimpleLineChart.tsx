@@ -24,11 +24,12 @@ function SimpleLineChart({ data }: LineChartProps) {
   }) => {
     return (
       <div className="w-[250px] h-auto border border-gray-2 rounded-lg bg-white ">
-        <p className="h-10 flex flex-col justify-center  border-b-2  border-gray-1">
-          {payload[0]?.payload.name}년
+        <p className="h-16 flex flex-col justify-center  border-b-2  border-gray-1 text-2xl text-center">
+          {payload[0]?.payload.name}
+          {payload[0]?.payload.name !== "future!!" && "년"}
         </p>
 
-        <p className="p-10">{payload[0]?.payload?.description}</p>
+        <p className="p-5">{payload[0]?.payload?.description}</p>
       </div>
     );
   };

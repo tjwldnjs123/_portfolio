@@ -31,7 +31,7 @@ function AboutMe() {
       name: "future!!",
       성장률: 100,
       description:
-        "테크랩스에서의 경험은 기술적 깊이와 리더십을 동시에 키울 수 있는 기회였다. 중요한 프로젝트를 주도하며 책임감을 느꼈고, 문제 해결 능력이 크게 향상되었다. 빅데이터와 데이터 시각화에 대한 이해를 넓히며 커리어를 한 단계 도약시켰다.",
+        "미래에는 기술과 경험을 바탕으로 더욱 혁신적인 프로젝트를 주도하며 업계의 리더로 자리매김할 것이며 최신 기술 트렌드와 도구들을 활용해 지속적으로 성장하며 지속적인 학습과 자기 개발을 통해 전문가로서의 입지를 확고히 하고 후배 개발자들에게 멘토링을 제공하며 업계의 발전에 기여할 것이다.",
     },
   ];
 
@@ -45,14 +45,15 @@ function AboutMe() {
         <div className="text-center mb-10">
           <p>안녕하세요, 가파른 성장곡선을 그리는 개발자</p>
           <div>
-            <span>서지원</span>입니다
+            <span>서지원</span>입니다.
           </div>
+          <p className="text-[14px] mt-2 text-gray-500">
+            (차트에 마우스 오버시 상세내용이 나옵니다.)
+          </p>
         </div>
-        <div className="flex h-[500px]">
-          <div className="w-[50%] h-full ">
-            <SimpleLineChart data={chartData} />
-          </div>
-          <div>2021!!</div>
+
+        <div className="w-[80%] h-full mx-auto">
+          <SimpleLineChart data={chartData} />
         </div>
       </div>
     </div>
