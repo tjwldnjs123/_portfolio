@@ -12,8 +12,14 @@ function Career() {
         <div className="flex flex-col items-center">
           {careerData.career.map((companyData) => {
             return (
-              <div className="w-[80%] h-auto flex mb-10 ">
-                <div className="w-[30%] ">{companyData.img}</div>
+              <div className="w-[80%] h-auto flex mb-10">
+                <div className="w-[30%] h-[300px] ">
+                  <img
+                    className=" bg-cover object-fill w-full h-full brightness-100 group-hover:brightness-50"
+                    src={`https://tjwldnjs123.github.io/_portfolio/${companyData.img}`}
+                    alt="회사 로고"
+                  />
+                </div>
 
                 <div className="border-l border-slate-300"></div>
 

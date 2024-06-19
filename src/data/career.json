@@ -3,7 +3,7 @@
     {
       "company": "테크랩스",
       "period": "23.08 ~",
-      "img": "회사로고",
+      "img": "/assets/테크랩스.jpg",
       "description": "인공지능(AI), 빅데이터 기술과 SaaS(Service as a Softwate)기술을 활용하여 대한민국 초개인화(Hyper-personalization) 추천 기술을 선도하는 회사 입니다.",
       "contents": [
         {
@@ -30,7 +30,7 @@
     {
       "company": "아이테크",
       "period": "22.10 ~ 23.5",
-      "img": "회사로고",
+      "img": "/assets/아이테크.jpg",
       "description": "아이테크는 PG 금융 서비스를 기반으로 간편 송금 솔루션 및 핀테크 메신저를 기획,개발 하는 회사 입니다.",
       "contents": [
         {

@@ -28,6 +28,7 @@ function Projects() {
                   <img
                     className=" bg-cover object-fill w-full h-full brightness-100 group-hover:brightness-50"
                     src={`https://tjwldnjs123.github.io/_portfolio/${data.img}`}
+                    alt="프로젝트 대표 이미지"
                   />
                 </div>
 
