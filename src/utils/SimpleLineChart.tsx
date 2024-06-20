@@ -23,7 +23,7 @@ function SimpleLineChart({ data }: LineChartProps) {
     payload: { [key: string]: any }[];
   }) => {
     return (
-      <div className="w-[250px] h-auto border border-gray-2 rounded-lg bg-white ">
+      <div className="w-[250px] h-auto  rounded-lg bg-white ">
         <p className="h-16 flex flex-col justify-center   text-2xl text-center bg-sky-100">
           {payload[0]?.payload.name}
           {payload[0]?.payload.name !== "future!!" && "년"}
