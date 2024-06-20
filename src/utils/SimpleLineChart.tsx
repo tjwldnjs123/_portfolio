@@ -95,7 +95,7 @@ function SimpleLineChart({ data }: LineChartProps) {
             value: "(%)",
             position: "top",
             offset: -10,
-            style: { transform: "translateX(-20px)" }, // X축으로 이동
+            style: { transform: "translateX(-20px)" },
           }}
         />
         <Tooltip content={customTolltip} />
